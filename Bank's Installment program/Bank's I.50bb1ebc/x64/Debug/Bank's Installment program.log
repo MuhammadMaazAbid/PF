@@ -1,0 +1,7 @@
+﻿  Bank's Installment program.cpp
+C:\Users\muham\source\repos\Bank's Installment program\Bank's Installment program.cpp(18,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\muham\source\repos\Bank's Installment program\Bank's Installment program.cpp(23,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\muham\source\repos\Bank's Installment program\Bank's Installment program.cpp(28,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\muham\source\repos\Bank's Installment program\Bank's Installment program.cpp(33,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\muham\source\repos\Bank's Installment program\Bank's Installment program.cpp(38,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : fatal error LNK1168: cannot open C:\Users\muham\source\repos\Bank's Installment program\x64\Debug\Bank's Installment program.exe for writing

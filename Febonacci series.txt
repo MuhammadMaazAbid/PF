@@ -1,0 +1,6 @@
+﻿Build started at 3:14 AM...
+1>------ Build started: Project: PF Assignment, Configuration: Debug x64 ------
+1>PF Assignment.cpp
+1>PF Assignment.vcxproj -> D:\Visual Studio C++ codes\PF Assignment\x64\Debug\PF Assignment.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 3:14 AM and took 01.477 seconds ==========
