@@ -15,27 +15,27 @@ int main()
 		payAbleAmount = vehiclePrice - downPayment;
 		if (installmentMonths <= 12) {
 			interestRate = 0.10;
-			new_payAbleAmount = payAbleAmount + (payAbleAmount + interestRate);
+			new_payAbleAmount = payAbleAmount + (payAbleAmount * interestRate);
 			mothlyInstallment = new_payAbleAmount / installmentMonths;
 		}
 		else if (installmentMonths >= 12 && installmentMonths <=24) {
 			interestRate = 0.15;
-			new_payAbleAmount = payAbleAmount + (payAbleAmount + interestRate);
+			new_payAbleAmount = payAbleAmount + (payAbleAmount * interestRate);
 			mothlyInstallment = new_payAbleAmount / installmentMonths;
 		}
 		else if (installmentMonths >= 24 && installmentMonths <= 36) {
 			interestRate = 0.20;
-			new_payAbleAmount = payAbleAmount + (payAbleAmount + interestRate);
+			new_payAbleAmount = payAbleAmount + (payAbleAmount * interestRate);
 			mothlyInstallment = new_payAbleAmount / installmentMonths;
 		}
 		else if (installmentMonths >= 36 && installmentMonths <= 48) {
 			interestRate = 0.25;
-			new_payAbleAmount = payAbleAmount + (payAbleAmount + interestRate);
+			new_payAbleAmount = payAbleAmount + (payAbleAmount * interestRate);
 			mothlyInstallment = new_payAbleAmount / installmentMonths;
 		}
 		else if (installmentMonths >= 48 && installmentMonths <= 60) {
 			interestRate = 0.30;
-			new_payAbleAmount = payAbleAmount + (payAbleAmount + interestRate);
+			new_payAbleAmount = payAbleAmount + (payAbleAmount * interestRate);
 			mothlyInstallment = new_payAbleAmount / installmentMonths;
 		}
 		else {
@@ -44,8 +44,13 @@ int main()
 		cout << "Your monthly installment is : Rs." << mothlyInstallment << endl;
 		cout << "Do you want to continue this program (y/n) ";
 		cin >> choice;
+		if (choice == 'y' || choice == 'Y'){
+			cout << "Thank you for using our Program" << endl;
+			break;
+		}
+		
 	} while (choice == 'y' || choice == 'Y');
-	cout << "Thank you for using our Program" << endl;
+	
 
 
 
